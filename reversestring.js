@@ -3,7 +3,7 @@
 //Your result must be a string
 
 function reverseString(string) {
-    string = 
+   return string = string.split("").reverse("").join(""); 
 }; 
 
-reverseString("Hello");
+console.log(reverseString("Greetings From Earth"));
