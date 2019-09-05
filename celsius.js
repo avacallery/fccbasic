@@ -1,6 +1,6 @@
-function convertToF() {
-    let fahrenheit = 
+function convertToF(celsius) {
+    let fahrenheit = (celsius * (9/5)) + 32; 
+    return fahrenheit; 
+};
 
-}
-
-//(C* 9/5) + 32 = F
+console.log(convertToF(30)); 
