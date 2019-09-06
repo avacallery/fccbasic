@@ -2,8 +2,8 @@ function repeatStringNumTimes(str, num) {
     var repeatString = ""; 
     while (num > 0) {
         repeatString += str; 
-        num++;
+        num--;
     }
     return repeatString;
   }
-  console.log(repeatStringNumTimes("abc", 3));
+repeatStringNumTimes("abc", 3);
