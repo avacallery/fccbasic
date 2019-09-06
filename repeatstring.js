@@ -4,8 +4,6 @@ function repeatStringNumTimes(str, num) {
         repeatString += str; 
         num++;
     }
-
     return repeatString;
   }
-  
   console.log(repeatStringNumTimes("abc", 3));
